@@ -1,40 +1,40 @@
 # Git basics commands
 
 #### Initialize repository
-<br>`git init`
+`git init`
 
 #### Check status
-<br>`git status`
+`git status`
 
 #### Check commit detail logs
-<br>`git log`
+`git log`
 
 #### Check commit logs in one line
-<br>`git log --oneline`
+`git log --oneline`
 
 #### Check the difference after a file modification
-<br>`git diff`
+`git diff`
 
 #### Adding Multiple files to staging area 
-<br>`git add .`
+`git add .`
 
 #### Unstage previously staged commits
-<br>`git reset HEAD -- .`
+`git reset HEAD -- .`
 
 #### Perform a commit 
-<br>`git commit -m "commit_message"`
+`git commit -m "commit_message"`
 
 #### Create a branch and make a switch to thet branch
-<br>`git checkout -b new_branch_name`
+`git checkout -b new_branch_name`
 
 #### To get list of all available branch
-<br>`git branch`
+`git branch`
 
 #### Create a remote repository
-<br>`git remote add origin "https://github.com/nishantkp/git-basics"(remote-repository)`
+`git remote add origin "https://github.com/nishantkp/git-basics"(remote-repository)`
 
 #### Get the list of all remote repository
-<br>`git remote -v` or `git remote`
+`git remote -v` or `git remote`
 
 #### Send commits to remote repository
 ```
