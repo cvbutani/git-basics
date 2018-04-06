@@ -1,5 +1,22 @@
 # Git basics commands
 
+## Getting started
+Download git-bash by [clicking here](https://git-scm.com/downloads).
+
+#### Setting up your git
+You have to set username and email in git, because every commit use this information
+```
+git config --global user.name "Nishant Patel"
+git config --global user.email mpatel@example.com
+```
+
+#### Setup your editor
+If you don't want to use default editor and what to use atom for that,
+you can write following to set editor
+```
+git config --global core.editor atom
+```
+
 #### Initialize repository
 `git init`
 
