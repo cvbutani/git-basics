@@ -48,7 +48,12 @@ git config --global core.editor atom
 `git branch`
 
 #### Create a remote repository
-`git remote add origin "https://github.com/nishantkp/git-basics"(remote-repository)`
+```
+git remote add origin "https://github.com/nishantkp/git-basics"(your-remote-repository)
+git remote add upstream "https://github.com/cvbutani/git-basics"(pull-remote-repository)
+```
+#### Remove a remote repository
+`git remote rm origin`
 
 #### Get the list of all remote repository
 `git remote -v` or `git remote`
