@@ -1,6 +1,10 @@
-# Git basics commands
+# Git basic commands
 
-## Getting started
+<p align=center>
+<img src="https://user-images.githubusercontent.com/32653955/38624814-04e60904-3d77-11e8-8046-22746b284d39.png" width="300" height="150">
+</p>
+
+## Getting started :smiley:
 Download git-bash by [clicking here](https://git-scm.com/downloads).
 
 #### Setting up your git
