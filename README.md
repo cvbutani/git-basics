@@ -51,6 +51,13 @@ git config --global core.editor atom
 #### To get list of all available branch
 `git branch`
 
+#### Show branch structure
+```
+git log --graph --decorate --oneline --all 
+OR
+git log --graph --simplify-by-decoration --oneline --all
+```
+
 #### Create a remote repository
 ```
 git remote add origin "https://github.com/nishantkp/git-basics"(your-remote-repository)
