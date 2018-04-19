@@ -83,3 +83,11 @@ origin -> remote repository name
 master -> local repository branch
 ```
 Dont forget to merge after using `git fetch`
+
+## Branch renaming
+#### Rename current local branch 
+`git branch -m new-name`
+
+#### Rename local branch from different branch
+`git branch -m old-branch new-branch`
+
