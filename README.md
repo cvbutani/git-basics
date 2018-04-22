@@ -91,3 +91,9 @@ Dont forget to merge after using `git fetch`
 #### Rename local branch from different branch
 `git branch -m old-branch new-branch`
 
+## Delete branch
+#### Delete local branch
+`git branch -d local-branch`
+
+#### Delete remote branch
+`git push origin --delete remote-branch`
