@@ -84,6 +84,11 @@ master -> local repository branch
 ```
 Dont forget to merge after using `git fetch`
 
+#### Merging specific commit from one branch to another
+*Secenario : You were working on a certain branch of a git repository, and you committed some changes to it. Then you realize, this particular commit should also go to another branch of the repository BUT you are not ready for a complete merge. Maybe this commit was meant for the other branch?*
+
+`git cherry-pick <commit-hash>`
+
 ## Branch renaming
 #### Rename current local branch 
 `git branch -m new-name`
