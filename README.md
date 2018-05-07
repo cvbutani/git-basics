@@ -34,7 +34,7 @@ git config --global core.editor atom
 #### Check commit logs in one line
 `git log --oneline`
 
-#### Check the difference after a file modification
+#### Check the difference after a file modification before stagging
 `git diff`
 
 #### Adding Multiple files to staging area 
