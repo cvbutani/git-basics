@@ -12,6 +12,7 @@ You have to set username and email in git, because every commit use this informa
 ```
 git config --global user.name "Nishant Patel"
 git config --global user.email mpatel@example.com
+git config --global color.ui auto
 ```
 
 #### Setup your editor
