@@ -46,6 +46,9 @@ git config --global core.editor atom
 #### Perform a commit 
 `git commit -m "commit_message"`
 
+#### Add tag
+`git tag 1.0.0 <SHA>`
+
 #### Create a branch and make a switch to thet branch
 `git checkout -b new_branch_name`
 
