@@ -49,6 +49,9 @@ git config --global core.editor atom
 #### Add tag
 `git tag 1.0.0 <SHA>`
 
+#### Push all tag to remote repo
+`git push --tags origin`
+
 #### Create a branch and make a switch to thet branch
 `git checkout -b new_branch_name`
 
