@@ -46,6 +46,9 @@ git config --global core.editor atom
 #### Perform a commit 
 `git commit -m "commit_message"`
 
+#### Rename most recent commit
+`git commit --amend -m "commit_message"`
+
 #### Add tag
 `git tag 1.0.0 <SHA>`
 
